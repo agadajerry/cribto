@@ -1,0 +1,185 @@
+
+/*@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+*//* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
+/*@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+*//*side bar styling*/
+.title-header
+{
+	background: #ccc;
+	width: 100%;
+	line-height: 90px;
+	padding: 10px;
+}
+
+.title-header h1
+{
+	text-align: center;
+	color: #002;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.sideBar1
+{
+	background: #002;
+	height: 100%;
+	border-right: 1px solid red;
+
+	
+}
+
+
+.list-group-item img
+{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+
+}
+.list-group-item h2
+{
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: orange;
+	margin-top: 10px;
+	
+}
+.nav li a
+{
+ text-transform: uppercase;
+ color: #001;
+ font-size: 14px;
+}
+
+.sideBar1 ul li:hover
+{
+	color: #fff;
+	background: #001;
+
+}
+
+.sideBar1 ul li a:hover
+{	
+	background: #001;
+	color: #fff;
+
+}
+
+
+/*Social media*/
+
+.social
+{
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.social hr
+{
+	background: #111;
+	width: 80%;
+	height: 3px;
+	margin: 70px auto;
+	color: black
+}
+
+ .social h2
+ {
+ 	text-align: center;
+
+ }
+
+ .social a
+ {
+ 	text-align: center;
+ 	text-decoration: none;
+ 	margin-right: 10px;
+ }
+ .social-icon a img
+ {		
+ 		width: 44px;
+ 		height: 44px;
+ 		border-radius: 3px;
+ 		background: #000;
+ }
+
+ .social-icon
+ {
+ 	width: 100%;
+ 	margin: 5px auto;
+ 	text-align: center;
+ 	margin-top: 20px;
+
+
+ }
+
+ .sideBar1 ul li.social-icon:hover
+ {
+ 	background: #001;
+ }
+
+ .social-icon a img:hover
+ {
+ 	transform: translateY(-10px);
+ 	background: none;
+ }
+
+
+/*form control*/
+
+.product-title
+{
+	background: #002;
+	color:#fff;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+form
+{
+	margin: 30px 0;
+}
+.search-product,#sNo
+{
+	width: 200px;
+}
+
+
+/* Content area*/
+
+.content-area
+{
+	float: right;
+	width: 40%;
+}
+
+
+.search-container
+{
+	width: 300px;
+}
+
+tr td
+{
+	text-transform: uppercase;
+}
+tr td img
+{
+	width: 30px;
+	height: 30px;
+}
+
+tr td img:hover
+{
+	cursor: pointer;
+	background: #dc3545;
+	border-color:#dc3545;
+	color: #fff; 
+	border-radius: 50%;
+}
+/*Table styling with weeor messages*/
